@@ -70,3 +70,15 @@ nav a{
     gap: 20px;
     margin: 20px;
 }
+aside,article{
+    padding: 10px;
+    background-color: brown;
+}
+footer{
+    text-align: center;
+}
+@media ( max-width: 768px){
+.container{
+    grid-template-columns: 1fr;
+}
+}
